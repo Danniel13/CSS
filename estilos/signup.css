@@ -1,0 +1,92 @@
+body {
+  background-image: radial-gradient(circle at 14.64% -11.24%, #164b4b 0, #134b4f 5%, #124b52 10%, #134a55 15%, #154a57 20%, #184959 25%, #1c495b 30%, #21485d 35%, #26475e 40%, #2c465f 45%, #31455f 50%, #36445f 55%, #3c435e 60%, #41415d 65%, #45405c 70%, #4a3f5a 75%, #4e3e57 80%, #513d55 85%, #553c52 90%, #583b4f 95%, #5a3a4c 100%);
+  margin-right: 5%;
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: -15%;
+}
+
+form {
+  font-size: 48px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(180deg, #cce0dd 0, #cce0de 4.55%, #cbe0e0 9.09%, #cbe0e2 13.64%, #cbe0e3 18.18%, #cce0e5 22.73%, #ccdfe6 27.27%, #cedfe7 31.82%, #cfdfe8 36.36%, #d0dee9 40.91%, #d2deea 45.45%, #d4ddea 50%, #d6dcea 54.55%, #d8dcea 59.09%, #dadbe9 63.64%, #dddbe9 68.18%, #dfdae8 72.73%, #e1dae7 77.27%, #e3d9e5 81.82%, #e5d9e4 86.36%, #e6d8e2 90.91%, #e8d8e1 95.45%, #e9d8df 100%);
+    border-radius: 2px;
+    color: #75a2b8;
+    font-weight: bold;
+    padding: 15px;
+    border: 3px solid #ffffff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 20px;
+    height: 280px;
+    width: 310px;
+}
+
+
+input {
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  background-color: rgb(210, 218, 230);
+  
+  color: rgb(104, 111, 116);
+  border-color: rgb(255, 255, 255);
+  outline: invert;
+  border-radius: 5px;
+  border: 1px solid rgb(23, 26, 27)
+}
+
+
+button {
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #75a2b8;
+  border-radius: 6px;
+  border: 2px solid #305b9a;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background: rgb(23, 93, 121);
+}
+
+a {
+  font-size: small;
+  font-style: italic;
+}
+
+a:link {
+  color: #75a2b8;
+}
+a:hover{
+  background: rgb(178, 209, 221);
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+
+@media(max-width:768px){
+  form, input,button {
+    width: 75%; 
+    height: 75%;
+  }
+
+}
+
+@media(max-width:480px){
+  form, input, button {
+    width: 90%;
+    height: 75%;  
+  }
+
+} 
+
+
