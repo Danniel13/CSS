@@ -1,0 +1,61 @@
+<!-- SIGNIFICADOS SEMANTICOS:
+  STRONG: CONCEPTO IMPORTANTE DE UN PARRAFO =negrita
+<em> TEXTO EXPLICATIVO DEL TEMA  =italica 
+  <del> ESTE TEXTO YA NO LO TENGA EN CUENTA !!-->
+
+<html>
+<head>
+<title>First Website in MISION TIC</title>
+
+</head>
+<body>
+<h1> Welcome to my website </h1>
+<h2>Introduction</h2>
+<h3>Who are we?</h3>
+<h4>Developers</h4>
+<h5>Developers in Colombia are really bad :v</h5>
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+  type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining
+  essentially unchanged. </p>
+  <p><strong>It</strong> was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+  passages, and more recently with <em>desktop publishing</em> software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+<hr>
+<pre><mark> This text is in a label "pre" </pre>
+<pre> <mark>This text2 is in a label "pre" </pre>
+
+<h2>La etiqueta "pre" nos permite por ejemplo lanzar un codigo de python (Identación: )</h2>
+<b><strike>Program in Python Code: </b></strike>
+<pre>
+  class Juice:
+  def __init__(self, name, capacity):
+      self.name = name
+      self.capacity = capacity
+
+  def __str__(self):
+      return (self.name + ' ('+str(self.capacity)+'L)')
+  
+  def __add__(self,newJuice):
+      
+      self.name += "&" + str(newJuice.name)
+      self.capacity += newJuice.capacity 
+      return self.__str__
+
+
+a = Juice('Orange', 1.5)
+b = Juice('Apple', 2.0)
+
+
+print(a.__add__(b)())
+
+
+</pre>
+<hr>
+<p>Analyze the following sentence: </p>
+<p>X<sub>1</sub> + X<sub>2</sub> = 2Y<sup>5</sup></p>
+</body>
+
+
+</html>
